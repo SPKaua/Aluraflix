@@ -1,7 +1,10 @@
 body {
     color: white;
     background: black;
+    margin: 0px;
     font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 header {
@@ -51,5 +54,9 @@ section{
 .categoria-videos img:hover {
     opacity: 1.0;
     height: 210px;
-    border: 1px;
+    border: 1px solid green;
+}
+
+.categoria h2{
+    color: rgb(42, 122, 228)
 }
